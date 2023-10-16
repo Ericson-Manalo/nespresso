@@ -1,10 +1,11 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue'
+import HomePage from './pages/HomePage.vue'
 </script>
 
 <template>
 <AppHeader/>
-
+<HomePage/>
   <router-view></router-view>
 </template>
 
