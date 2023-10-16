@@ -7,18 +7,20 @@
             <div class="upper-items">
                 <div>
                     <a href="">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <span>CERCA</span>
+                        <i class="fa-solid fa-magnifying-glass pe-2"></i>
+                        <span class="d-none d-md-inline d-lg-inline">CERCA</span>
                     </a>
                 </div>
                 <div>
                     <a href="">
-                        ACCEDI
+                        <i class="fa-regular fa-circle-user pe-2"></i>
+                        <span class="d-none d-md-inline d-lg-inline">ACCEDI</span>
                     </a>
                 </div>
                 <div>
                     <a href="">
-                        CARRELLO
+                        <i class="fa-solid fa-cart-shopping pe-2"></i>
+                        <span class="d-none d-md-inline d-lg-inline">CARRELLO</span>
                     </a>
                 </div>
 
@@ -106,7 +108,7 @@ export default {
         .upper-header{
             display: flex;
             justify-content: space-between;
-            width: 996px;
+            max-width: 996px;
             // background-color: red;
             margin: 0 auto;
 
