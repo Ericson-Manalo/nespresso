@@ -88,6 +88,48 @@
 export default {
     data() {
         return {
+            links: [
+                {
+                    route: 'caffè',
+                    name: 'Caffè'
+                },
+                {
+                    route: 'macchine',
+                    name: 'Macchine'
+                },
+                {
+                    route: 'accessori',
+                    name: 'Accessori'
+                },
+                {
+                    route: 'easy',
+                    name: 'Easy'
+                },
+                {
+                    route: 'promozioni',
+                    name: 'Promozioni'
+                },
+                {
+                    route: 'ricette',
+                    name: 'Ricette'
+                },
+                {
+                    route: 'sostenibilità',
+                    name: 'Sostenibilità'
+                },
+                {
+                    route: 'assistenza',
+                    name: 'Assistenza'
+                },
+                {
+                    route: 'dove',
+                    name: 'Dove siamo'
+                },
+                {
+                    route: 'professional',
+                    name: 'Professional'
+                },
+            ]
         }
     },
 }
