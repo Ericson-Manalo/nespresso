@@ -7,17 +7,17 @@
             <div class="upper-items">
                 <div>
                     <a href="">
-                        1
+                        CERCA
                     </a>
                 </div>
                 <div>
                     <a href="">
-                        2
+                        ACCEDI
                     </a>
                 </div>
                 <div>
                     <a href="">
-                        3
+                        CARRELLO
                     </a>
                 </div>
 
@@ -106,7 +106,7 @@ export default {
             display: flex;
             justify-content: space-between;
             width: 996px;
-            background-color: red;
+            // background-color: red;
             margin: 0 auto;
 
             img.header-logo{
@@ -116,22 +116,29 @@ export default {
             div.upper-items{
                 display: flex;
                 height: 80px;
-                align-items: center
+                align-items: center;
+
+                div{
+                    margin-right: 2rem;
+                }
 
             }
         }
 
         .lower-header{
             height: 80px;
-            background-color: blue;
+            // background-color: blue;
             width: 996px;
             margin: 0 auto;
+            text-align: center;
 
             ul{
                 display: flex;
                 align-items: center;
                 height: 100%;
-                justify-content: space-around;
+                justify-content: space-evenly;
+                width: 100%;
+                padding-right: 2rem;
 
                 li{
                     list-style-type: none;
