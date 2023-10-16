@@ -27,58 +27,11 @@
         <!--LOWER HEADER-->
         <nav class="lower-header">
             <ul>
-                <li>
-                    <a href="">
-                        Caffè
-                    </a>
+                <li class="" v-for="link in links">
+                    <router-link :to="{name: link.route}">
+                        {{link.name}}
+                    </router-link>
                 </li>
-                <li>
-                    <a href="">
-                        Macchine
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Accessori
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Easy
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Promozioni
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Ricette
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Sostenibilità
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Assistenza
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Dove siamo
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Professional
-                    </a>
-                </li>
-
-
             </ul>
         </nav>
     </header>
