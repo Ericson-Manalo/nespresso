@@ -94,6 +94,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@use '../styles/general.scss' as*;
+
+
     header{
         height: 160px;
         background-color: white;
