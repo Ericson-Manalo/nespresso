@@ -5,8 +5,8 @@ import HomePage from './pages/HomePage.vue'
 
 <template>
 <AppHeader/>
-<HomePage/>
-  <router-view></router-view>
+  <HomePage/>
+    <router-view></router-view>
 </template>
 
 <style lang="scss">
