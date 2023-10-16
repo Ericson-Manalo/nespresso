@@ -25,8 +25,62 @@
         </div>
 
         <!--LOWER HEADER-->
-        <div class="lower-header">
-        </div>
+        <nav class="lower-header">
+            <ul>
+                <li>
+                    <a href="">
+                        Caffè
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Macchine
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Accessori
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Easy
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Promozioni
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Ricette
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Sostenibilità
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Assistenza
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Dove siamo
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Professional
+                    </a>
+                </li>
+
+
+            </ul>
+        </nav>
     </header>
 </template>
 
@@ -34,9 +88,6 @@
 export default {
     data() {
         return {
-            links: [
-
-            ]
         }
     },
 }
@@ -64,6 +115,24 @@ export default {
                 height: 80px;
                 align-items: center
 
+            }
+        }
+
+        .lower-header{
+            height: 80px;
+            background-color: blue;
+            width: 996px;
+            margin: 0 auto;
+
+            ul{
+                display: flex;
+                align-items: center;
+                height: 100%;
+                justify-content: space-around;
+
+                li{
+                    list-style-type: none;
+                }
             }
         }
 
