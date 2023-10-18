@@ -1,4 +1,5 @@
 <template lang="">
+    <!--========JUMBOTRON SECTION=========-->
     <section>
         <div class="col jumbotron">
             <div class="jumbotron-content">
@@ -7,42 +8,73 @@
                 </h1>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="">
-                    <i class="fa-solid fa-truck-fast"></i>
-                    <h2>
-                        guaranteed shipping
-                    </h2>
+    </section>
+
+    <!--========COMPANY SERVICES SECTION=========-->
+
+    <section>
+        <div class="row text-center services">
+                <div class="col-lg-3 col-md-6 col-sm-12 card-container">
+                    <div class="card-content">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <h2>
+                            guaranteed shipping
+                        </h2>
+                        <p>
+                            Our shipping service is effectively fast. the delivery will be taken to its destination within 24 hours.
+                        </p>
+                    </div>
                 </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 card-container">
+                    <div class="card-content">
+                        <i class="fa-solid fa-handshake"></i>
+                        <h2>
+                            reliability
+                        </h2>
+                        <p>
+                            Our company constantly works to give you the best service. Our support service is available 24 hours a day.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 card-container">
+                    <div class="card-content">
+                        <i class="fa-solid fa-leaf"></i>
+                        <h2>
+                            eco-friendly packaging
+                        </h2>
+                        <p>
+                            We are working to become a totally plastic free company! We only use 0.5% of our packaging by weight and it is made of (recycled) plastic.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 card-container">
+                    <div class="card-content">
+                        <i class="fa-solid fa-users-line"></i>
+                        <h2>
+                            earnest company
+                        </h2>
+                        <p>
+                            For over 50 years we have been operating in the floriculture and field gardening sector, offering products of the highest quality
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!--========PLANTING SECTION=========-->
+
+    <section class="planting-section">
+        <div class="row">
+            <div class="col seeding-img">
+                <img src="https://marketplace.canva.com/EAE5Zsrnpzw/1/0/1600w/canva-green-creative-growing-seed-for-agriculture%2C-farming%2C-gardening-logo-bm7B1oarYOE.jpg" alt="Seeding Image">
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div>
-                    <i class="fa-solid fa-handshake"></i>
-                </div>
-                <h2>
-                    reliability
-                </h2>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div>
-                    <i class="fa-solid fa-leaf"></i>
-                </div>
-                <h2>
-                    eco-friendly packaging
-                </h2>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div>
-                    <i class="fa-solid fa-users-line"></i>
-                </div>
-                <h2>
-                    earnest company
-                </h2>
-                
+            <div class="col">
+                2
             </div>
         </div>
     </section>
+
 </template>
 
 <script>
@@ -52,6 +84,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+
+// ========JUMBOTRON SECTION========= //
 
 section{
     width: 100%;
@@ -82,18 +117,69 @@ section{
                 text-shadow: #2d531e 1px 0 10px;
             }
         }
-
-        
     }
-
-    div.row{
-        margin-top: 3rem;
-        
-    }
-
-
 }
 
+// ========COMPANY SERVICES SECTION========= //
+
+
+div.services{
+    max-width: 1200px;
+    margin: 3.2rem auto;
+
+    div.card-container{
+        border-right: 1px solid #ececec;
+        border-left: 1px solid #ececec;
+
+        // @media only screen and (min-width: 980px) {
+        //     .card-container {
+        //         all: none;
+        //     }
+        // }
+
+
+        div.card-content{
+            padding: 2rem;
+
+
+            i{
+                font-size: 3rem;
+                color: #22684f;
+            }
+
+            h2{
+                text-transform: uppercase;
+                font-size: 1.4rem;
+                letter-spacing: .125rem;
+                padding-top: 1.2rem;
+            }
+
+            p{
+                padding-top: 1rem;
+            }
+        }
+    }
+}
+
+
+// ========PLANTING SECTION========= //
+
+section.planting-section{
+    margin-top: 4rem;
+
+    div.seeding-img{
+        background-color: #22684f;
+        height: 630px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 500px;
+            height: 500px;
+        }
+    }
+}
 
 
 
