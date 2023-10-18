@@ -58,32 +58,20 @@ export default {
         return {
             links: [
                 {
-                    route: 'caffè',
-                    name: 'Caffè'
+                    route: 'piante_esterno',
+                    name: 'Piante da esterno'
                 },
                 {
-                    route: 'macchine',
-                    name: 'Macchine'
+                    route: 'piante_interno',
+                    name: 'Piante da interno'
                 },
                 {
-                    route: 'accessori',
-                    name: 'Accessori'
-                },
-                {
-                    route: 'easy',
-                    name: 'Easy'
+                    route: 'vasi',
+                    name: 'Vasi e arredo'
                 },
                 {
                     route: 'promozioni',
                     name: 'Promozioni'
-                },
-                {
-                    route: 'ricette',
-                    name: 'Ricette'
-                },
-                {
-                    route: 'sostenibilità',
-                    name: 'Sostenibilità'
                 },
                 {
                     route: 'assistenza',
@@ -93,10 +81,7 @@ export default {
                     route: 'dove',
                     name: 'Dove siamo'
                 },
-                {
-                    route: 'professional',
-                    name: 'Professional'
-                },
+
             ]
         }
     },
