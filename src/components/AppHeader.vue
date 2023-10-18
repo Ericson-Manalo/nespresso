@@ -3,7 +3,8 @@
 
             <!--UPPER HEADER-->
         <div class="upper-header">
-            <img class="header-logo" src="https://logos-world.net/wp-content/uploads/2020/12/Nespresso-Logo-700x394.png" alt="Logo Of Nespresso">
+            <!-- <img class="header-logo" src="https://logos-world.net/wp-content/uploads/2020/12/Nespresso-Logo-700x394.png" alt="Logo Of Nespresso"> -->
+            LOGO
             <div class="upper-items">
                 <div>
                     <a href="">
@@ -29,19 +30,25 @@
 
         <!--LOWER HEADER-->
         <nav class="lower-header navbar navbar-expand-lg navbar-light ">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="" v-for="link in links">
-                        <router-link :to="{name: link.route}">
-                            {{link.name}}
-                        </router-link>
-                    </li>
-                </ul>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item" v-for="link in links">
+                            <a class="nav-item">
+                            <router-link :to="{name: link.route}">
+                                {{link.name}}
+                            </router-link>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
         </nav>
+
     </header>
 </template>
 
@@ -140,8 +147,8 @@ export default {
                 align-items: center;
                 height: 100%;
                 justify-content: space-evenly;
-                width: 100%;
                 padding-right: 2rem;
+                width: 100%;
 
                 li{
                     list-style-type: none;
