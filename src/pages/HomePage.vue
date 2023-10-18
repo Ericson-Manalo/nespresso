@@ -66,11 +66,20 @@
 
     <section class="planting-section">
         <div class="row">
+            <div class="col planting-content">
+                <h1>
+                    Let's reforest the planet with you
+                </h1>
+                <div class="d-flex">
+                    <img src="../assets/planting.png" href="">
+                    <p>
+                        We care about the life of the forest.
+                    </p>
+
+                </div>
+            </div>
             <div class="col seeding-img">
                 <img src="https://marketplace.canva.com/EAE5Zsrnpzw/1/0/1600w/canva-green-creative-growing-seed-for-agriculture%2C-farming%2C-gardening-logo-bm7B1oarYOE.jpg" alt="Seeding Image">
-            </div>
-            <div class="col">
-                2
             </div>
         </div>
     </section>
@@ -179,6 +188,26 @@ section.planting-section{
             height: 500px;
         }
     }
+
+    div.planting-content{
+
+        h1{
+            font-size: 5rem;
+            padding-left: 3rem;
+            color: #22684f;
+        }
+        div.d-flex{
+            align-items: center;
+
+                img{
+                    height: 200px;
+                    width: 250px;
+                }
+            }
+        }
+        
+
+
 }
 
 
