@@ -66,7 +66,7 @@
 
     <section class="planting-section">
         <div class="row">
-            <div class="col planting-content">
+            <div class="col-lg-6 col-sm-12 planting-content">
                 <h1>
                     Let's reforest the planet with you
                 </h1>
@@ -78,12 +78,10 @@
 
                 </div>
             </div>
-            <div class="col seeding-img">
-                <video controls autoplay>
-                    <source src="../assets/video-rainforestation.mp4" type="video/mp4">
-                    <source src="movie.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                </video> 
+            <div class="col-lg-6 col-sm-12 seeding-img">
+                <div>
+                    <img src="../assets/plating-tree.png" href="Planting tree image">
+                </div>
             </div>
         </div>
     </section>
@@ -181,19 +179,15 @@ section.planting-section{
     margin-top: 4rem;
 
     div.seeding-img{
-        background-color: #22684f;
         height: 630px;
         display: flex;
         justify-content: center;
         align-items: center;
 
-        video{
-            width: 100%;
-            height: 550px;
-        }
     }
 
     div.planting-content{
+        background-color: #22684f;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -201,7 +195,7 @@ section.planting-section{
         h1{
             font-size: 5rem;
             padding-left: 3rem;
-            color: #22684f;
+            color: #ffff;
         }
         div.d-flex{
             align-items: center;
