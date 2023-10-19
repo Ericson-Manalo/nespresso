@@ -11,4 +11,8 @@ import HomePage from './pages/HomePage.vue'
 
 <style lang="scss">
     @import '../node_modules/bootstrap/scss/bootstrap';
+    @font-face {
+      font-family: Eurostile;
+      src: url(EurostileW01-DisCapsRegular.ttf);
+    } 
 </style>
