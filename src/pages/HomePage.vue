@@ -73,13 +73,17 @@
                 <div class="d-flex">
                     <img src="../assets/planting.png" href="">
                     <p>
-                        We care about the life of the forest.
+                        We care about the life of the forest. We will plant 1 tree together every time you place an order over €30
                     </p>
 
                 </div>
             </div>
             <div class="col seeding-img">
-                <img src="https://marketplace.canva.com/EAE5Zsrnpzw/1/0/1600w/canva-green-creative-growing-seed-for-agriculture%2C-farming%2C-gardening-logo-bm7B1oarYOE.jpg" alt="Seeding Image">
+                <video controls autoplay>
+                    <source src="../assets/video-rainforestation.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video> 
             </div>
         </div>
     </section>
@@ -183,13 +187,16 @@ section.planting-section{
         justify-content: center;
         align-items: center;
 
-        img{
-            width: 500px;
-            height: 500px;
+        video{
+            width: 100%;
+            height: 550px;
         }
     }
 
     div.planting-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
         h1{
             font-size: 5rem;
