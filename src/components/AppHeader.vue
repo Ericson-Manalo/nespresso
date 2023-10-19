@@ -115,6 +115,11 @@ export default {
 
                 div{
                     margin-right: 2rem;
+
+                    &:hover{
+                        background-color: #22684f;
+                        
+                    }
                 }
 
             }
