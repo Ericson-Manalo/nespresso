@@ -151,6 +151,10 @@ export default {
 
                     a{
                         color: white;
+
+                        &:hover{
+                            border-bottom: 2px solid #22684f;
+                        }
                     }
                 }
             }
