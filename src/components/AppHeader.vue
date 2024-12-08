@@ -58,6 +58,10 @@ export default {
         return {
             links: [
                 {
+                    route: 'offerte',
+                    name: 'Offerte'
+                },
+                {
                     route: 'piante_esterno',
                     name: 'Piante da esterno'
                 },
@@ -95,7 +99,7 @@ export default {
     header{
         height: 160px;
         background-color: white;
-        color: black;
+        // color: black;
 
         .upper-header{
             display: flex;
@@ -116,9 +120,8 @@ export default {
                 div{
                     margin-right: 2rem;
 
-                    &:hover{
-                        background-color: #22684f;
-                        
+                    a{
+                        color: #2f2f2f;
                     }
                 }
 
@@ -127,8 +130,9 @@ export default {
 
         .lower-header{
             height: 80px;
-            // background-color: blue;
-            width: 996px;
+            background-color: #2f2f2f;
+            // width: 996px;
+            color: white;
             margin: 0 auto;
             text-align: center;
 
@@ -139,9 +143,15 @@ export default {
                 justify-content: space-evenly;
                 padding-right: 2rem;
                 width: 100%;
+                color: white !important; 
+
 
                 li{
                     list-style-type: none;
+
+                    a{
+                        color: white;
+                    }
                 }
             }
         }
