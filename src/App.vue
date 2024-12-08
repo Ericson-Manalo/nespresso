@@ -1,11 +1,14 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue'
 import HomePage from './pages/HomePage.vue'
+import ImageSlider from './components/ImageSlider.vue'
 </script>
 
 <template>
 <AppHeader/>
-  <HomePage/>
+<HomePage>
+    <ImageSlider />
+</HomePage>
     <router-view></router-view>
 </template>
 
