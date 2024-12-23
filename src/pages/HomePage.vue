@@ -66,11 +66,6 @@ section{
     width: 100%;
 
     div.jumbotron{
-        // background-image: url('https://media.architecturaldigest.com/photos/5dcde00380598800086215f6/16:9/w_2560%2Cc_limit/Osofsky_Oct19-5.jpg');
-        // height: 700px;
-        // background-position: 50%;
-        // background-size: cover;
-        // width: 100%;
         position: relative;
         filter: grayscale(40%);
 
@@ -78,7 +73,6 @@ section{
         div.jumbotron-content{
             position: absolute;
             width: 650px;
-            // background-color: red;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -135,9 +129,6 @@ section.planting-section{
                 }
             }
         }
-        
-
-
 }
 
 
