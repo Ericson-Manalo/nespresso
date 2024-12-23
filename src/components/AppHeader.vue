@@ -14,14 +14,15 @@
                 </div>
                 <div>
                     <a href="">
-                        <i class="fa-regular fa-circle-user pe-2"></i>
-                        <span class="d-none d-md-inline d-lg-inline">ACCEDI</span>
+                        <i class="fa-solid fa-cart-shopping pe-2"></i>
+                        <span class="d-none d-md-inline d-lg-inline">CARRELLO</span>
                     </a>
+                    
                 </div>
                 <div>
                     <a href="">
-                        <i class="fa-solid fa-cart-shopping pe-2"></i>
-                        <span class="d-none d-md-inline d-lg-inline">CARRELLO</span>
+                        <i class="fa-regular fa-circle-user pe-2"></i>
+                        <span class="d-none d-md-inline d-lg-inline">ACCEDI</span>
                     </a>
                 </div>
 
