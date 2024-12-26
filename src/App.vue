@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.vue'
 import HomePage from './pages/HomePage.vue'
 import ImageSlider from './components/ImageSlider.vue'
 import CompanyService from './components/CompanyService.vue'
+import PlantsItem from './components/PlantsItem.vue'
 
 </script>
 
@@ -11,6 +12,7 @@ import CompanyService from './components/CompanyService.vue'
 <HomePage>
     <ImageSlider />
     <CompanyService />
+    <PlantsItem />
 </HomePage>
     <router-view></router-view>
 </template>
