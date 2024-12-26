@@ -20,7 +20,7 @@
 
     <!--========PLANTING SECTION=========-->
 
-    <section class="planting-section">
+    <section class="planting-section wavy-section">
         <div class="row">
             <div class="col-lg-6 col-sm-12 planting-content">
                 <h1>
@@ -42,17 +42,28 @@
         </div>
     </section>
 
+
+    <!--========PLANT'S ITEM SECTION=========-->
+
+    <section>
+        <PlantsItem />
+    </section>
+
+
 </template>
 
 <script>
 import ImageSlider from '../components/ImageSlider.vue';
-import CompanyService from '../components/CompanyService.vue'; // Importa lo slider
+import CompanyService from '../components/CompanyService.vue';
+import PlantsItem from '../components/PlantsItem.vue';
+
 
 export default {
     name: 'HomePage',
     components: {
         ImageSlider, 
-        CompanyService,// Dichiaralo nei componenti
+        CompanyService,
+        PlantsItem,
     },
 };
 </script>
@@ -72,7 +83,7 @@ section{
 
         div.jumbotron-content{
             position: absolute;
-            width: 650px;
+            // width: 650px;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
