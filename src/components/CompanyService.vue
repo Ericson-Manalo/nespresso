@@ -1,6 +1,6 @@
 <template lang="">
 
-<div class="row text-center services">
+<div class="row text-center services spacing-class">
     <div class="col-lg-3 col-md-6 col-sm-12 card-container">
         <div class="card-content">
             <i class="fa-solid fa-truck-fast"></i>
@@ -60,7 +60,6 @@ export default {
 
 div.services{
     max-width: 1200px;
-    margin: 3.2rem auto;
 
     div.card-container{
         border-right: 1px solid #ececec;
